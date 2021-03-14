@@ -1,0 +1,64 @@
+body{
+    
+    align-items: center;
+}
+
+button
+{
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.prev
+{
+    position: fixed;
+    top: 45%;
+    margin: auto;
+}
+.next
+{
+    position: fixed;
+    top: 45%
+}
+#head
+{
+    text-align: center; 
+    letter-spacing: 2px; 
+    word-spacing: 6px;
+    font-size: 30px; 
+    margin-top: 20px;
+}
+#img
+{
+    margin-top: 3%;
+    animation: all 20s img infinite;
+}
+@media screen and (max-width:992px) and (min-width:768px)
+{
+    .prev
+    {
+        margin-top: -13%;
+
+    }
+    .next
+    {
+        margin-top: -13%;
+    }
+    #head
+    {
+        text-align: center;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:767px)
+{
+    .prev
+    {
+        margin-top: -18%;
+
+    }
+    .next
+    {
+        margin-top: -18%;
+    }
+}
